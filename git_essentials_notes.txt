@@ -1,0 +1,24 @@
+## check settings
+git config --list
+
+##
+git config --global user.name "ArunNadda"
+git config --global user.email "arunnadda@gmail.com"
+git config --global color.ui "auto"
+
+## windows
+git config --global core.editor "'c:/program files/.....'"
+
+## check settings
+git config --list
+
+
+
+
+## understaning Git - basics
+cd <dir>
+git init
+-- create file
+git sttus
+
+git add <filename>
