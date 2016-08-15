@@ -27,4 +27,7 @@ git log
 
 git log --oneline
 
-## 
+##  git diff to check differece between file last known state and current state
+git diff
+
+git diff --staged ## check diff in files which is in staged area and production area
