@@ -31,3 +31,24 @@ git log --oneline
 git diff
 
 git diff --staged ## check diff in files which is in staged area and production area
+
+
+## look around
+## HEAD - current snapshot of folder we are looking at
+git diff HEAD~1
+git diff HEAD~2
+
+git log
+
+
+git diff <versionID> ### diff is from current status of file
+
+
+
+### revert back to earlier version -- git checkout
+git diff
+git checkout HEAD~1 README.md
+## DACG -- this is how git saves data
+git checkout master
+
+git reset HEAD <file Name>
