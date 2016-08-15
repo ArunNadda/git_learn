@@ -19,6 +19,12 @@ git config --list
 cd <dir>
 git init
 -- create file
-git sttus
+git status
 
 git add <filename>
+
+git log
+
+git log --oneline
+
+## 
