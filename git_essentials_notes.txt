@@ -52,3 +52,16 @@ git checkout HEAD~1 README.md
 git checkout master
 
 git reset HEAD <file Name>
+
+
+
+## reset file to last status
+git reset --hard
+
+## remove file from staging area
+git reset -HEAD
+
+
+
+
+## ignore things in git
