@@ -63,5 +63,22 @@ git reset -HEAD
 
 
 
-
+##################################################################
 ## ignore things in git
+
+
+## create new folders in original dir
+## create .gitkeep file to force git to detect it
+
+
+
+## .gitignore file, can be used to ignore files which are not required to be added for git versioning
+## this file should be under mail dir where .git dir is there
+## we can use patterns in .gitignore file.
+## e.g. *.aux
+##      *.pdf
+##        etc
+
+
+## if add a file which is ignored , use -f
+git add -f nobel.pdf
