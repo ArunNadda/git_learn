@@ -6,4 +6,8 @@ def my_square(x):
 	"""
 	return (x ** 2)
 
-print(my_square(4))
+def my_square2(z):
+	return (z * z)
+
+print(my_square(44))
+print(my_square2(44))
