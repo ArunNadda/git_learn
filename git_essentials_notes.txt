@@ -82,3 +82,62 @@ git reset -HEAD
 
 ## if add a file which is ignored , use -f
 git add -f nobel.pdf
+
+
+
+#############################################################################
+## Remote and branches
+
+## github, bitbucket, gitlab
+
+
+## use remotes with https
+## use push and pull
+
+
+
+git remote add origin https://github.com/ArunNadda/git_learn.git
+anadda (master *) git_learn $ git remote -v
+origin  https://github.com/ArunNadda/git_learn.git (fetch)
+origin  https://github.com/ArunNadda/git_learn.git (push)
+anadda (master *) git_learn $ git push
+
+anadda (master *) git_learn $ git remote -v
+origin  https://github.com/ArunNadda/git_learn.git (fetch)
+origin  https://github.com/ArunNadda/git_learn.git (push)
+anadda (master *) git_learn $ git push origin master
+Counting objects: 25, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (25/25), 2.87 KiB | 0 bytes/s, done.
+Total 25 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/ArunNadda/git_learn.git
+ * [new branch]      master -> master
+anadda (master *) git_learn $
+
+
+
+##########################################################################
+##use remote with ssh
+##create ssh pub key files
+## final configuration is done with ssh.
+## delete https repository and then remove from laptop using
+git remote remove origin
+
+
+#########################################################################
+resolving conflict if file is modified locally and remote both.
+
+## use github for project management
+
+
+#########################################################################
+## use branches
+
+anadda (master *) src $ git branch my_branch
+anadda (master *) src $ git branch -a
+* master
+  my_branch
+  remotes/origin/master
+anadda (master *) src $
