@@ -1,2 +1,1 @@
-This repositor contains the files used for git lesson from Safari Online.
-
+This repository contains the files used for git learning.
